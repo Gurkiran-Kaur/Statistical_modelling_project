@@ -20,7 +20,7 @@ In order to identify and fetch meaningful data, each  API’s documentation page
 
 Based on data built in part 1 from Citybik, an API call was made both to Foursquare and Yelp with a small radius (1000m) for all the bike stations in cork city
 
-Obtained response was parsed to get the POIs (such as restaurants, bars, entertainment) and their details  like ratings, review count, name, location, categories, coordinates,distance from station etc).
+Obtained response was parsed to get the POIs (such as restaurants, bars, entertainment) and their details  like ratings, review count, name, location, categories, coordinates,distance from station etc.
 
 Parsed results were put into a DataFrame and also into a csv file
 
@@ -55,7 +55,7 @@ The adjusted R-squared (Adj. R²) is 0.287, which is slightly lower than R-squar
 
 Also  with a p-value of 0.001, it can be deduced that the model is statistically significant and there is strong evidence to suggest that changes in the "Shortest Yelp Distance from Station" variable are associated with changes in the number of empty slots. We can say the distance from the station is likely a significant predictor of the number of empty slots.
 
-The original code with all outputs can be found in data directory.
+The collated code for this project with all outputs is present in file named original_codeis can be found in data directory.
 
 ## Challenges 
 Reading and understanding API was time consuming.
