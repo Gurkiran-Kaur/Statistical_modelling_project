@@ -29,8 +29,12 @@ Data obtained was studied and comparison of  information obtained from Yelp vs F
 Top ten restaurants according to rating were found from both Yelp and Foursquare
 
 ### Part 3
-Data from part 1 And Part 2 was finally merged to create a new dataframe.SQLite database was created and validated to store the combined data.
-Data visualization 
+Data from part 1 and Part 2 was finally merged to create a new dataframe.
+
+
+
+SQLite database was created and validated to store the combined data.
+
 
 ### Part 4
 
