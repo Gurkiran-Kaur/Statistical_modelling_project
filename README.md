@@ -3,12 +3,16 @@
 ## Project/Goals
 The goal of this project is to combine and practice implementing statistical modelling with python.
 In this project three APIs namely City_bikes, Four Square places API and Yelp API were queried. A comparison of quality of both Yelp and Four square places API in terms of best coverage and information was done.
+
 Finally regression model that demonstrates a relationship between the shortest distance (closest POI) to a bike station  and number of empty slots  was built and interpreted. 
 ## Process
 ### Part 1
 Connected  to CityBikes API, queried it and tried exploring it’s structure.
+
 Chose the city named “Cork” and retrieved all available bike stations in that city
+
 For each bike station, the API was used to call the latitude, longitude and number of bikes.
+
 Finally this JSON object was parsed into python and converted into a dataframe. 
 
 ### Part 2
