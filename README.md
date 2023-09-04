@@ -64,13 +64,13 @@ Since the city has less number of bike stations, sometimes number of bikes value
 Limited calls to yelp API was also an issue 
 
 ## Future Goals
-I could have studied API in more detail and come up with more innovative ideas specially around picking up keys to filter data.
+Study API in more detail and come up with more innovative ideas specially around picking up keys to filter data.
 
 Can go for multivariate regression for checking the effect of value of shortest distance or distance of nearest POI on empty slots for both the API calls i.e foursquare as well as yelp and explore further.
 
-Explore the data for bigger and busier city
-
 Collect data for more number of POIs and characterstics
+
+Working on building a classification model for this project
 
 
 
