@@ -42,24 +42,33 @@ SQLite database was created and validated to store the combined data.
 
 ### Part 4
 
-A linear regression model was built to demonstrate relationship between a relationship between the shortest distance (closest POI) to a bike station  and number of empty slots using   
+A linear regression model was built to demonstrate relationship between the shortest distance (closest POI) to a bike station  and number of empty slots.   
 
 
 ## Results
-After comparing both the comparison
-regression
-classification
+After comparing  the quality of the Yelp and Foursquare API, it can be concluded that Yelp API gives the more complete information and better coverage.
+for example apart from giving the POI it is also  telling whether that POI is closed or not which is very important information one would want to have.
+Review count is another additional key present in Yelp compared to FSQ.
+
+The regression model output gives R-squared value of 0.309 which suggests that model explains a moderate amount of the variability in the data.
+The adjusted R-squared (Adj. R²) is 0.287, which is slightly lower than R-squared. This might be due to overfitting or there might be other variables which can be explored to improve the fitting.
+
+Also  with a p-value of 0.001, it can be deduced that the model is statistically significant and there is strong evidence to suggest that changes in the "Shortest Yelp Distance from Station" variable are associated with changes in the number of empty slots. In other words, the distance from the station is likely a significant predictor of the number of empty slots.
+
+The original code with all outputs can be found in data directory.
 
 ## Challenges 
 Reading and understanding API was time consuming.
 Picking the relevant keys out of the API data for each one of data sources was tricky
+Since the city has less number of bike stations, sometimes number of bikes value were all zero.So instead of number of bikes, number of empty slots was chosen as a variable to get insight. 
 Limited calls to yelp API was also an issue 
 
 ## Future Goals
 I could have studied API in more detail and come up with more innovative ideas specially around picking up keys to filter data.
-multivariate regression
 
-take bigger city
+Can go for multivariate regression for checking the effect of value of shortest distance or distance of nearest POI on empty slots for both the API calls i.e foursquare as well as yelp and explore further.
 
-collect more POIs and characterstics
+Explore the data for bigger and busier city
+
+Collect data for more number of POIs and characterstics
 
