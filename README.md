@@ -59,8 +59,11 @@ The collated code for this project with all outputs is present in notebook named
 
 ## Challenges 
 Reading and understanding API was time consuming.
+
 Picking the relevant keys out of the API data for each one of data sources was tricky
+
 Since the city has less number of bike stations, sometimes number of bikes value were all zero.So instead of number of bikes, number of empty slots was chosen as a variable to get insights. 
+
 Limited calls to yelp API was also an issue 
 
 ## Future Goals
