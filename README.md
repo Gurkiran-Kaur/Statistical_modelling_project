@@ -31,18 +31,22 @@ Top ten restaurants according to rating were found from both Yelp and Foursquare
 ### Part 3
 Data from part 1 and Part 2 was finally merged to create a new dataframe.
 
+Data visualisation was done to explore the data. A bar plot was created to show the number of empty slots at each bike station. 
 
+Scatter plots were plotted to probe if any pattern or corelation exists between the number of empty slots at a particular station (which shows how busy it is) and how close any POI (shortest distance) to this station is. Scatter plot for both Yelp and FSQ were plotted. 
+
+It was evident from scatter plots that there is positive corelation between these variables but it is not strong. 
 
 SQLite database was created and validated to store the combined data.
 
 
 ### Part 4
 
-A regression model was built to demonstrate relationship between ....... 
+A linear regression model was built to demonstrate relationship between a relationship between the shortest distance (closest POI) to a bike station  and number of empty slots using   
 
 
 ## Results
-comparison
+After comparing both the comparison
 regression
 classification
 
