@@ -55,7 +55,7 @@ The adjusted R-squared (Adj. R²) is 0.287, which is slightly lower than R-squar
 
 Also  with a p-value of 0.001, it can be deduced that the model is statistically significant and there is strong evidence to suggest that changes in the "Shortest Yelp Distance from Station" variable are associated with changes in the number of empty slots. We can say the distance from the station is likely a significant predictor of the number of empty slots.
 
-The collated code for this project with all outputs is present in file named original_codeis can be found in data directory.
+The collated code for this project with all outputs is present in notebook named original_code_with_outputs which can be found in data directory.
 
 ## Challenges 
 Reading and understanding API was time consuming.
@@ -71,4 +71,6 @@ Can go for multivariate regression for checking the effect of value of shortest 
 Explore the data for bigger and busier city
 
 Collect data for more number of POIs and characterstics
+
+
 
