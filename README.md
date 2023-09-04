@@ -20,7 +20,7 @@ In order to identify and fetch meaningful data, each  API’s documentation page
 
 Based on data built in part 1 from Citybik, an API call was made both to Foursquare and Yelp with a small radius (1000m) for all the bike stations in cork city
 
-Obtained response was parsed to get the POIs (such as restaurants, bars, entertainment) and their details  like ratings, review count, name, location, categories, coordinates,distance from station etc)
+Obtained response was parsed to get the POIs (such as restaurants, bars, entertainment) and their details  like ratings, review count, name, location, categories, coordinates,distance from station etc).
 
 Parsed results were put into a DataFrame and also into a csv file
 
@@ -33,7 +33,7 @@ Data from part 1 and Part 2 was finally merged to create a new dataframe.
 
 Data visualisation was done to explore the data. A bar plot was created to show the number of empty slots at each bike station. 
 
-Scatter plots were plotted to probe if any pattern or corelation exists between the number of empty slots at a particular station (which shows how busy it is) and how close any POI (shortest distance) to this station is. Scatter plot for both Yelp and FSQ were plotted. 
+Scatter plots were plotted to probe if any pattern or corelation exists between the number of empty slots at a particular station (which shows how busy it is) and how close any POI (shortest distance) to this station is. Scatter plots for both Yelp and FSQ were plotted. 
 
 It was evident from scatter plots that there is positive corelation between these variables but it is not strong. 
 
@@ -47,20 +47,20 @@ A linear regression model was built to demonstrate relationship between the shor
 
 ## Results
 After comparing  the quality of the Yelp and Foursquare API, it can be concluded that Yelp API gives the more complete information and better coverage.
-for example apart from giving the POI it is also  telling whether that POI is closed or not which is very important information one would want to have.
+For example, apart from giving the POI it is also  telling whether that POI is closed or not which is very important information one would look for.
 Review count is another additional key present in Yelp compared to FSQ.
 
 The regression model output gives R-squared value of 0.309 which suggests that model explains a moderate amount of the variability in the data.
 The adjusted R-squared (Adj. R²) is 0.287, which is slightly lower than R-squared. This might be due to overfitting or there might be other variables which can be explored to improve the fitting.
 
-Also  with a p-value of 0.001, it can be deduced that the model is statistically significant and there is strong evidence to suggest that changes in the "Shortest Yelp Distance from Station" variable are associated with changes in the number of empty slots. In other words, the distance from the station is likely a significant predictor of the number of empty slots.
+Also  with a p-value of 0.001, it can be deduced that the model is statistically significant and there is strong evidence to suggest that changes in the "Shortest Yelp Distance from Station" variable are associated with changes in the number of empty slots. We can say the distance from the station is likely a significant predictor of the number of empty slots.
 
 The original code with all outputs can be found in data directory.
 
 ## Challenges 
 Reading and understanding API was time consuming.
 Picking the relevant keys out of the API data for each one of data sources was tricky
-Since the city has less number of bike stations, sometimes number of bikes value were all zero.So instead of number of bikes, number of empty slots was chosen as a variable to get insight. 
+Since the city has less number of bike stations, sometimes number of bikes value were all zero.So instead of number of bikes, number of empty slots was chosen as a variable to get insights. 
 Limited calls to yelp API was also an issue 
 
 ## Future Goals
