@@ -42,6 +42,8 @@ Limited calls to yelp API was also an issue
 ## Future Goals
 I could have studied API in more detail and come up with more innovative ideas specially around picking up keys to filter data.
 multivariate regression
+
 take bigger city
+
 collect more POIs and characterstics
 
