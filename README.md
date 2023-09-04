@@ -16,14 +16,18 @@ For each bike station, the API was used to call the latitude, longitude and numb
 Finally this JSON object was parsed into python and converted into a dataframe. 
 
 ### Part 2
-Based on data built in part 1 from Citybik, relevant keys were identified as Latitude and Longitude for each Station in the list of stations.
-
-Using values of Latitudes and Longitudes, for each of the bike stations in Part 1, both APIs were queried to retrieve information for the following in that location:
- 1. Restaurants or bars
- 2. Arts and Entertainment
-
 In order to identify and fetch meaningful data, each  API’s documentation page had to be studied in depth.
-Panda data frame was then used to normalize the data for human reading use.
+
+Based on data built in part 1 from Citybik, an API call was made both to Foursquare and Yelp with a small radius (1000m) for all the bike stations in cork city
+
+Obtained response was parsed to get the POIs (such as restaurants, bars, entertainment) and their details  like ratings, review count, name, location, categories, coordinates,distance from station etc)
+
+Parsed results were put into a DataFrame and also into a csv file
+
+Data obtained was studied and comparison of  information obtained from Yelp vs Foursqaure was done
+
+Top ten restaurants according to rating were found from both Yelp and Foursquare
+
 ### Part 3
 Data from part 1 And Part 2 was finally merged to create a new dataframe.SQLite database was created and validated to store the combined data.
 Data visualization 
