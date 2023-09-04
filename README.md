@@ -9,7 +9,7 @@ Finally regression model that demonstrates a relationship between the shortest d
 Connected  to CityBikes API, queried it and tried exploring it’s structure.
 Chose the city named “Cork” and retrieved all available bike stations in that city
 For each bike station, the API was used to call the latitude, longitude and number of bikes.
-Finally this JSON object was parsed into python and converted into a dataframe 
+Finally this JSON object was parsed into python and converted into a dataframe. 
 
 ### Part 2
 Based on data built in part 1 from Citybik, relevant keys were identified as Latitude and Longitude for each Station in the list of stations.
@@ -37,9 +37,11 @@ classification
 ## Challenges 
 Reading and understanding API was time consuming.
 Picking the relevant keys out of the API data for each one of data sources was tricky
+Limited calls to yelp API was also an issue 
 
 ## Future Goals
 I could have studied API in more detail and come up with more innovative ideas specially around picking up keys to filter data.
 multivariate regression
 take bigger city
+collect more POIs and characterstics
 
